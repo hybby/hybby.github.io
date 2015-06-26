@@ -1,4 +1,9 @@
+my github pages repo.  effectively my cv.
+
 ***
+# drew jess
+## unix sysadmin & more
+
 ### contact
   * email:    [iamdrew -at- gmail -dot- com](mailto:iamdrew@gmail.com?subject=hey, i saw your cv on github!)
   * twitter:  [@rewcore](https://twitter.com/rewcore)
