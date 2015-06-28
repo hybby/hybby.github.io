@@ -1,14 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 Helvetica, Arial, sans-serif;
+  color:#555;
   font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#555;
   margin:0 0 20px;
 }
 
@@ -25,15 +24,15 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#555;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#555;
 }
 
 a {
-  color:#39c;
+  color:#cfa600;
   font-weight:400;
   text-decoration:none;
 }
@@ -45,10 +44,12 @@ a small {
   display:block;
 }
 
+/*
 .wrapper {
-  width:860px;
+  width:700px;
   margin:0 auto;
 }
+*/
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -59,7 +60,7 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  color:#555;
   font-size:12px;
 }
 
@@ -83,12 +84,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:#555;
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:#555;
 }
 
 img {
@@ -118,7 +119,7 @@ header ul {
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:270px;
+  width:250px;
 }
 
 header li {
@@ -131,7 +132,7 @@ header li {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#555;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -139,7 +140,7 @@ header ul a {
 }
 
 strong {
-  color:#222;
+  color:#555;
   font-weight:700;
 }
 
@@ -156,12 +157,13 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#555;
 }
 
 section {
-  width:500px;
-  float:right;
+  width:750px;
+  float:left;
+  padding-left:250px;;
   padding-bottom:50px;
 }
 
@@ -171,18 +173,18 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#fff;
   height:1px;
+  width:100%;
   margin:0 0 20px;
 }
 
 footer {
-  width:270px;
+  width:150px;
   float:left;
   position:fixed;
   bottom:50px;
 }
-
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -236,7 +238,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 480px) { 
   body {
     padding:15px;
   }
@@ -250,6 +252,6 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#555;
   }
 }

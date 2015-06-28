@@ -1,172 +1,181 @@
 my github pages repo.  effectively my cv.
 
 ***
-# drew jess
-## unix sysadmin & more
-
-### contact
-  * email:    [iamdrew -at- gmail -dot- com](mailto:iamdrew@gmail.com?subject=hey, i saw your cv on github!)
-  * twitter:  [@rewcore](https://twitter.com/rewcore)
-  * github:   [hybby](https://github.com/hybby)
-  * linkedin: [drew.jess](https://uk.linkedin.com/in/drewjess)
-  * phone:    on request 
 
 ***
-### summary
+### Contact
+- E-mail:   [iamdrew -at- gmail -dot- com](mailto:iamdrew@gmail.com?subject=Hey, I saw your CV on Github!)
+- Twitter:  [@rewcore](https://twitter.com/rewcore)
+- Github:   [hybby](https://github.com/hybby)
+- Linkedin: [drew.jess](https://uk.linkedin.com/in/drewjess)
+- Phone:    (on request) 
 
-i'm a highly effective technology professional with a real passion for working with *nix systems.  i have a proven history of fixing difficult problems.  i genuinely love working with complex systems and finding out exactly what makes them tick.
+***
+### Summary
 
-i'm really enthusiastic about automation and am always striving to do better.  i always think about how we can do things faster, more consistently and with fewer mistakes.  i have no interest in performing the same tasks over and over again; i'd rather go to lunch while my automation takes care of it.  i have a keen interest in the open source community and love keeping up to date with the latest developments.
+I'm a highly effective technology professional with a real passion for working with `*nix` systems.  I genuinely love working with complex systems and finding out what makes them tick.  
 
-i really care about the people who use systems that i'm responsible for.  i'm a huge proponent of helping developers to work to the best of their ability by providing the correct toolsets for them, and helping them to understand the infrastructure they're working on. 
+I'm really passionate about automation!  Faster!  More consistent!  More manageable!  What's not to love?
 
-if you're looking for a really competent sysadmin-type who is super-passionate about getting stuff done, i'm your man.
+If you're looking for a really competent sysadmin-type who is super-passionate about getting stuff done, I'm your man.  Why not drop me a line?
   
 ***
-### skills 
-
-here are the technologies that i've been working with recently:
-
-  * **\*nix system administration**  
-    * redhat enterprise linux 5 / 6 / 7
-    * oracle solaris 10
-  
-  * **hardware**
-    * hp proliant dl / bl series, gen 6 onwards
-    * virtual guests under vmware esx 5.1 / 6 and virtualbox
-  
-  * **enterprise storage and clustering** 
-    * veritas volume manager 5 / 6
-    * veritas cluster server 5 / 6
-    * ibm xiv
-    * emc vmax 20k / 40k
-    * netapp
-    * local storage solutions - `lvm` (linux), `zfs` (solaris)
-  
-  * **source control / continual integration / build automation**
-    * git
-    * subversion 
-    * jenkins
-    * vagrant 
-  
-  * **configuration management**
-    * puppet 
-    * ansible
-  
-  * **scripting**
-    * shell           - `bash` / `ksh` / `sh` scripting 
-    * Perl            - general scripting, writing modules, etc.
-    * regexp          - reading, writing, using them *all the time*.
-    * puppet dsl      - writing and deploying puppet modules 
-    * other           - some experience with python, ruby and ansible playbooks.
-  
-  * **misc**
-    * performance     - linux i/o and cpu tuning.  troubleshooting of bottlenecks using standard os tools.
-    * networks        - a strong understanding of the tcp / osi model.  subnetting, vlans, troubleshooting
-    * oracle          - provided top level unix support to oracle database administrators.
-    * mysql           - design of normalised schemas for web applications, modelled in uml before implementation.
-    * web development - designed and implemented web applications in php.  supported ruby on rails applications.
+### Skills 
   
 ***
-### employment history
+
+**Operating Systems**
+- Red Hat Enterprise Linux 5, 6 & 7
+- Oracle Solaris 10
+  
+**Hardware**
+- HP ProLiant DL / BL series, Gen6 onwards
+- Virtual guests under VMware ESX 5.1 / 6 and Oracle VirtualBox
+  
+**Enterprise Storage and Clustering**
+- Veritas Volume Manager (VxVM)
+- Veritas Cluster Server (VCS)
+- IBM XiV storage arrays
+- EMC VMAX 20k / 40k storage arrays
+- Netapp NAS arrays
+- Local storage solutions: `lvm` (linux), `zfs` (solaris)
+  
+**Source Control / Continual Integration / Build Automation**
+- Git
+- Subversion 
+- Jenkins
+- Vagrant 
+  
+**Configuration Management**
+- Puppet 
+- Ansible
+- Spacewalk / Katello
+  
+**Scripting**
+- Shell           - `bash` / `ksh` / `sh` scripting 
+- Perl            - General scripting, writing modules, etc.
+- Regexp          - Reading, writing and using *all the time*.
+- Puppet DSL      - Writing and deploying Puppet modules for a large and complex code-base. 
+- Other           - Some experience with Python, Ruby and Expect.
+  
+**Misc.**
+- Performance     - Linux I/O and CPU tuning.  Troubleshooting of application bottlenecks using standard OS tools.
+- Networks        - Strong understanding of the TCP stack and OSI model.  Subnetting, VLANs, general troubleshooting.
+- Oracle          - Provided top level OS support for senior Oracle DBAs.  OS tuning for Oracle.
+- MySQL           - Design of normalised database schemas for web applications (modelled in UML prior to implementation).
+- Web development - Designed and implemented web applications in PHP.  Supported Ruby on Rails apps.  HTML & CSS-literate.
+  
+***
+### Experience
   
 ***
   
-#### sky
-**technical analyst - unix sysadmin**  
-**july 2013 - present**
+#### Sky
+**Technical Analyst**  
+**July 2013 - Present**
   
-i work for sky as a unix sysadmin within the infrastructure delivery section of operations engineering.  we look after thousands of systems - they can range in function from large customer management database systems all the way to immutable machines responsible for streaming video to mobile devices.
+I work within the Unix Delivery function of Sky's Operations Engineering division where I'm responsible for delivering new infrastructure for upcoming projects.  I work really closely with the Unix Support function, and collectively we support close to ten thousand systems, ranging in function from large customer management database systems all the way to immutable infrastructure responsible for streaming video to mobile devices.
 
-largely, i deliver new infrastructure for large projects using a range of technologies.  i'm familiar with delivering systems which require high availability across multiple datacentres.  i also have a proven ability to take project requirements and deliver a large amount of infrastructure at short notice.  for example, i have delivered a 65-node hadoop cluster using hp proliant hardware and the cloudera cdh stack.  it was essential to perform this quickly, reliably and repeatably - i used redhat kickstart, shell and puppet dsl to deliver a recovery solution where nodes can be rebuilt at the push of a button.     
+I have a proven ability to deliver complex project requirements at extremely short notice.  For example, I've delivered and automated the deployment of a 65-node Hadoop cluster, built using HP ProLiant hardware and the Cloudera CDH software stack.  It was essential to perform this quickly, reliably and repeatably - I used Red Hat's Kickstart along with a good amount of shell and Puppet code to deliver a recovery solution that allowed nodes to be rebuilt at the push of a button.  Even though this was all needed super-urgently, I still managed to hand it all over before the rest of the project required it. 
 
-i'm familiar and comfortable planning and carrying out complex migration work.  i was the technical lead responsible for executing the rapid storage migration of 11 business critical oracle databases.  all databases were migrated successfully and handed back to the customer before the expiration of some tight outage windows.
+Complex database and application migration work is something that I'm very comfortable planning and performing.  For example, I was the technical lead responsible for executing storage migrations for 11 business critical Oracle databases.  Detailed plans were written and scheduled accordingly within ITIL change management guidelines.  Ultimately, all databases were migrated successfully and were handed back to the customer before the end of the given outage window.  
 
-i also act as top tier support for any unix-related support incidents which come through.  i've discovered my fair share of bugs in software and work effectively with vendors to help them understand and resolve the problems that we discover. 
+I'm familiar with a range of data copying and replication technologies.  This could be anything from from block-level replication at the storage array level, host-based mirroring techniques or even straight-up file transfers.  My understanding of these techniques has allowed me to, for example, write scripts which are able to establish and monitor the replication of terabytes worth of data without administrator involvement.
 
-i had the pleasure of helping to pioneer the next generation of sky's automated build infrastructure.  i played a pivotal role  writing modules for inclusion in our puppet dsl codebase and was responsible for the deployment and administration of a katello instance to provide packages to new builds.
+One of the most exciting things that I've been involved with has been helping to pioneer the next generation of Sky's build automation infrastructure.  I played a pivotal role writing modules for inclusion in our Puppet codebase and was responsible for the deployment and administration of a Katello instance to provide packages to new builds.
 
-i do loads of other stuff too - every day is different, and every day i learn something new!
+There are loads of other things that I'm really proud of having achieved here, too.  Every day is different, and every day I learn something new!
   
 ***
   
-#### sky
-**technology graduate**  
-**july 2011 - july 2013**
+#### Sky
+**Technology Graduate**  
+**July 2011 - July 2013**
   
-i joined the sky technology graduate scheme, which consisted of four placements:
+I joined the Sky Technology Graduate Scheme, which consisted of four placements:
   
-**enterprise network support analyst** (sept 2011 - jan 2012)  
-i acted as a support resource for sky's enterprise network, which consisted primarily of cisco devices (catalyst / nexus switches, ace load balancers, fwsm firewalls).  i performed a complete audit of the entire network estate.  i also introduced the concept of automation and script development within the team using `bash`, Perl and `expect`.
+**Enterprise Network Support Analyst** (September 2011 - January 2012)  
+My role in this team was to provide support for Sky's corporate network, consisting primarily of Cisco network devices (Catalyst & Nexus switches, ACE load balancers, FWSM firewalls).  I also provided support for the numerous leased lines that we operate and support across the world.  My largest project here involved performing a complete audit of the supported estate.  One of my biggest achievements was successfully introducing the concept of data collection from devices using `bash`, Perl and `expect`.
 
-**genesys implementation engineer** (feb 2012 - july 2012)  
-i worked on delivering new features to our customer call-centre capability using genesys products on a vast windows server 2003 platform.  i successfully delivered projects which allowed customer calls to be recorded and archived.  i took responsibility for reviewing and improving our opsview monitoring platform.  i performed a raft of automation for common tasks using powershell.
+**Genesys Implementation Engineer** (February 2012 - July 2012)  
+I worked on delivering new features to our customer call-centre capability using Genesys products across a vast Windows Server 2003 platform.  I successfully delivered projects which allowed customer calls to be recorded and archived.  I took responsibility for reviewing and improving our monitoring platform.  I automated common tasks using Microsoft PowerShell.
 
-**unix technical analyst** (july 2012 - jan 2013)  
-i worked as a support engineer within the infrastructure delivery function of operations engineering.  having never worked with unix systems before, i enthusiastically became a competent shell scripter, taking on a great deal of responsibility for bugfixing and refactoring our build scripts.  i learnt about enterprise storage solutions and independently developed a bespoke web-based monitoring platform for our oracle goldengate deployments.
+**Technical Analyst - Unix Team** (July 2012 - January 2013)  
+I worked as a support and infrastructure delivery resource within the Unix team.  Having never worked within this area before, I relished the opportunity to absorb as much knowledge as I could.  I became a competent shell scripter and took on a great deal of responsibility for bugfixing and refactoring the team's server build scripts.  I learnt a great deal about enterprise storage solutions and high-availability of services.  One of my independent projects involved developing a bespoke web-based monitoring platform for Oracle GoldenGate deployments, which was deeply appreciated by the Oracle database support team.  
 
-**broadcast network support analyst** (jan 2013 - july 2013)  
-i provided top-tier support for the numerous cutting-edge networks within sky's broadcast systems.  i was involved in fault analysis and platform improvement discussions with a wide range of users.  i automated and scripted repetitive data analysis operations with `bash`, Perl and `expect`.
+I was offered a full-time role in the Unix team following this placement.
 
-i designed and delivered a bespoke web application which allowed team members to record details of third party data circuits and their related support relationships.  this consisted of relational database design and implementation using mysql and web front-end development with php.  this solution continues to be used to this day!
+**Broadcast Network Support Analyst** (January 2013 - July 2013)  
+I provided support for the cutting-edge networks which enable Sky's television broadcast systems.  I was involved in fault analysis and platform improvement discussions with a wide range of users.  I automated and scripted repetitive data analysis operations with `bash`, Perl and `expect`.
+
+I designed and implemented a bespoke web application for support users - it allowed them to record details of our leased data  and their related support relationships.  The implementation of this project involved a great deal of relational database design using MySQL and web front-end development with PHP.  This application continues to be used within the team to this day!
   
 ***
   
-#### kjt consulting
-**technical consultant**  
-**june 2010 - december 2010**
+#### KJT Consulting
+**Technical Consultant**  
+**June 2010 - December 2010**
   
-freelance technology projects for kjt consulting, a human resources consultancy group.
+I performed freelance technology projects for a human resources consultancy group.
 
-  * data manipulation of large log files and communication of results to non-technical stakeholders
-  * network design, implementation & support
-  * provided advice with regards to technology related company developments
+I provided: 
+
+- In-depth analysis of large datasets using `bash` and communicated the results to non-technical stakeholders.
+- Network design, hardware deployment and support functions for the company's head-office.
+- Advice with regards to technology-related company developments.
   
   
 ***
   
-#### misc. hospitality / bar roles
-**team leadership roles**  
-**august 2005 - june 2010**
+#### Misc. Hospitality Roles
+**Various positions, all at a leadership level**  
+**August 2005 - June 2010**
   
-i worked with a range of well respected companies throughout secondary school and university in order to support myself.  in each role, i quickly became an indispensable member of staff who genuinely cared about providing great service to our customers.  as such, i tended to get promoted to 'team leader' and 'senior' roles extremely quickly.
+I worked with a range of well respected companies throughout school and university in order to support myself.  
 
-i can talk more about this with you, but i'm more passionate about my career within technology :)
-  
-***
-  
-### academic history
-
-#### university of the west of scotland
-**bsc hons., computer networking (first class)**  
-**dissertation:  "power consumption of network devices"**
-  
-**modules:**
-  * network design & security
-  * ccna curriculum, modules 1, 2 & 3
-  * unix network administration
-  * data & computer communications
-  * routing and router configuration
-  * relational database design
-
-
-**awards:**
-  * court medal, 2010 - awarded to highest performing student in year group
-  * court medal, 2006 - awarded to highest performing student in year group
+In each role, I quickly became a trusted and indispensable member of staff who genuinely cared about providing great service to customers.  As such, I tended to get promoted to leadership roles extremely quickly.
   
 ***
   
-#### personal interests
+### Academics
 
-outside of work, some of the things i really enjoy keeping up with:
+#### University of the West of Scotland
+**BSc Honours Computer Networking - First Class**  
 
-  * open source community 
-  * technology
-  * music (i play guitar and have a bit of a record collection)
-  * cycling
-  * cooking and visiting restaurants 
-  * really good coffee
-  * really good beer
-  * current affairs and politics
-  * videogames
+**Dissertation:** 
+- "Power Consumption of Network Devices"
+  
+**Modules:**
+- Cisco CCNA curriculum (Modules 1-3)
+- Data & Computer Communications
+- Network Design
+- Network Security
+- Wireless Networking
+- UNIX Network Administration
+- Windows Domain Administration
+- Relational Database Design
+- Object Oriented Analysis
+- Intelligent Machines
+- Management Information Systems
+- Modern Business Technology
+
+  
+**Awards:**
+- Court Medal, 2010 - Awarded to highest performing student in year group
+- Court Medal, 2006 - Awarded to highest performing student in year group
+  
+***
+  
+#### Personal Interests
+
+Outside of work, I like:
+ 
+- Technology - keeping up with news and latest developments.
+- Music - Playing guitar, attending gigs, collecting records.
+- Cycling
+- Cooking and eating out.
+- Current affairs and politics. 
+- Really good coffee.
+- Really good beer.
+- Videogames
  
