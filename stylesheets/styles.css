@@ -26,15 +26,15 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#999;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#999;
 }
 
 a {
-  color:#39c;
+  color:#fc0;
   font-weight:400;
   text-decoration:none;
 }
